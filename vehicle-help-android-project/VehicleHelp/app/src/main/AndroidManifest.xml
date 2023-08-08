@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dataflair.vehiclehelp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dataflair"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dataflair"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VehicleHelp">
+        <activity android:name=".Activities.AdminActivity"></activity>
+        <activity android:name=".Activities.RoleActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.StartingActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

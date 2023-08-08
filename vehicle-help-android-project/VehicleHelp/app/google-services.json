@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "600347430766",
+    "project_id": "vehicle-help-83bd3",
+    "storage_bucket": "vehicle-help-83bd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600347430766:android:ef00593184f39a19dbfb7f",
+        "android_client_info": {
+          "package_name": "com.dataflair.vehiclehelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600347430766-9nbdgtpo8a8aqvvhmgfu61p6kgatj6br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAuYB2_5lMTytmdQASfxt4say63qPFQms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600347430766-9nbdgtpo8a8aqvvhmgfu61p6kgatj6br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
